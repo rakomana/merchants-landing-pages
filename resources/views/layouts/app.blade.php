@@ -1,83 +1,63 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Prince Rakomana">
+      <!-- Place favicon.ico in the root directory -->
+      <!-- CSS here -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/animation-v2.css">
+      <link rel="stylesheet" href="css/featuredetect-v1.css">
+      <link rel="stylesheet" href="css/global.css">
+      <link rel="stylesheet" href="css/odometer-v1.css">
+      <link rel="stylesheet" href="css/slick-v1.css">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+      <script src="js/cdn-script.js"></script>
+      <script src="js/cookiePopup-v1.js"></script>
+      <script src="js/featureDetectSyntax-v1.js"></script>
+      <script src="js/featureDetect-v1.js"></script>
+      <script src="js/odoremeter-v1.min.js"></script>
+      <script src="js/particles.js"></script>
+      <script src="js/runScripts-v1.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/slick-v1.js"></script>
+      <script src="https://kit.fontawesome.com/780c19c6e7.js" crossorigin="anonymous"></script>
+   </head>
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
-                            @endif
-                            
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
+   <body>
+      <iframe class="hidden" src="https://"></iframe>
+      <div class="allowInherit">
+         <span class="hidden" id="cookieScriptData" data-baseloaderurl="" data-cookietext1="By continuing to use our website, you agree to the use of cookies. 
+            Click " data-cookietext2=" to find out more about cookies " data-timeout="5000" data-closebtn="show"></span><span class="hidden" id="featureDetectScriptData" data-featuredetecttext="Your browser does not appear support the functionality to run this site.  Please update your browser to use this site: " data-featuredetectlink="https://browser-update.org/update.html" data-featuredetectlinktext="Update your Browser"></span>		
+         <header>
+            <div class="contentContainer">
+               <div class="flexyContainer">
+                  <div class="flexyItem logo">
+                     <a href="{{url('/')}}"><img src="img/merchant_logo.png" class="logo-svg" alt="Logo"></a>
+                  </div>
+                  <div class="flexyItem right alignSelfCenter">
+                     <div class="secure">
+                        <i class="fas fa-lock"></i> Secure UK Site						
+                     </div>
+                  </div>
+               </div>
             </div>
-        </nav>
+         </header>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
-</body>
-</html>
+        @yield('content')
+
+      <!--Footer start-->
+      <footer>
+         <div class="contentContainer">
+            <div class="footerLogo">
+               <img src="img/merchant_logo.png" data-at2x="resources/images/logo-white@2x.png">
+            </div>
+            <a href="#">Face-to-Face Payments</a><span>|</span>
+            <a href="#">Online Payments</a><span>|</span><a href="#">Who We Are</a><span>|</span>
+            <a href="#">Contact Us</a><span>|</span><a href="#">EPOS</a><span>|</span><a href="#">Mobile App</a><span>|</span>
+            <a href="#">Privacy Policy</a><br><br>
+            © 2020 Energize Merchant Services	
+         </div>
+      </footer>
