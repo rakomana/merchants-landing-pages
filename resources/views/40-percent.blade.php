@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('content')
 
         <!-- splash -->
 
@@ -36,7 +37,7 @@
                   </div>
                </div>
                <div>
-                  <form action="#" method="post" id="formPageForm" novalidate="true">
+                  <form action="{{url('your-company')}}" method="GET" id="formPageForm" novalidate="true">
                      <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="paymentAcceptanceMethodCollectionErrorCombined">
                         <div class="formfieldHeader">
                            How would you like to accept payments?				
@@ -51,15 +52,15 @@
                            <div class="errorMessageBound flexyItem paddingTop10 width100Percent">
                               <div id="paymentAcceptanceMethodCollection0" class="flexyContainer paddingTop20 justifyCentral flex multipleFieldParent has3Children centerByMargin" data-fieldname="paymentAcceptanceMethodCollection" data-validatevia="validateArray" data-validateextra="{&quot;values&quot;:[{&quot;value&quot;:&quot;Face To Face&quot;},{&quot;value&quot;:&quot;Over The Phone&quot;},{&quot;value&quot;:&quot;Online&quot;}]}" data-validateinvalidates="null" data-validatelinkedfields="null" data-enabled="true" data-value="Face To Face" data-requiredif="true" data-displayif="true" data-disabledif="false">
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="paymentAcceptanceMethodCollection" id="paymentAcceptanceMethodCollection0FaceToFace" value="Face To Face" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField checked" data-checked="true"><a href="{{url('your-company')}}" style="text-decoration: none; color: whitesmoke;">Face To Face</a></button>
+                                    <button type="submit" name="paymentAcceptanceMethodCollection" id="paymentAcceptanceMethodCollection0FaceToFace" value="Face To Face" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField checked" data-checked="true">Face To Face</button>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="paymentAcceptanceMethodCollection" id="paymentAcceptanceMethodCollection0OverThePhone" value="Over The Phone" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('your-company')}}" style="text-decoration: none; color: whitesmoke;">Over The Phone</a></button>
+                                    <button type="submit" name="paymentAcceptanceMethodCollection" id="paymentAcceptanceMethodCollection0OverThePhone" value="Over The Phone" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">Over The Phone</button>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="paymentAcceptanceMethodCollection" id="paymentAcceptanceMethodCollection0Online" value="Online" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('your-company')}}" style="text-decoration: none; color: whitesmoke;">Online</a></button>
+                                    <button type="submit" name="paymentAcceptanceMethodCollection" id="paymentAcceptanceMethodCollection0Online" value="Online" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">Online</button>
                                  </div>
                               </div>
                               <div>

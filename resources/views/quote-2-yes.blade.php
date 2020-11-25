@@ -36,7 +36,7 @@
                   </div>
                </div>
                <div>
-                  <form action="#" method="post" id="formPageForm" novalidate="true">
+                  <form action="{{url('quote-2-yes-2')}}" method="GET" id="formPageForm" novalidate="true">
                      <input type="hidden" name="csrfToken" id="csrfToken" value="9613f12001ce9ce17308178f504bf5bced4ee59edb786e96be113d420153fc04">
                      <div class="sectionContainer errorMessageBound boxed" data-combinederrorid="currentProviderErrorCombined">
                         <div class="formfieldHeader">

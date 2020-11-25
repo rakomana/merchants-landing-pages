@@ -38,7 +38,7 @@
                   </div>
                </div>
                <div>
-                  <form action="{{url('address')}}" method="post" id="formPageForm" novalidate="true">
+                  <form action="{{url('address')}}" method="post, GET" id="formPageForm" novalidate="true">
                      <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="companyNameErrorCombined">
                         <div class="formfieldHeader">
                            What is your company name?				
@@ -66,7 +66,7 @@
                            <label class="fieldValidationError hidden companyNameErrorCombined">&nbsp;</label>
                         </div>
                         <div class="appButtonWrapper">
-                            <a href="{{url('address')}}" style="text-decoration: none; color: whitesmoke;"><button type="submit" class="formButton pulse">Continue <i class="fas fa-arrow-right"></i></button></a>
+                            <button type="submit" class="formButton pulse">Continue <i class="fas fa-arrow-right"></i></button>
                         </div>
                      </div>
                      <div class="lineBreak10"></div>
