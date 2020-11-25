@@ -17,7 +17,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form4/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('quote-2-yes')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -31,7 +31,7 @@
                      <div class="flexyItem">
                         <div class="meterBut pagedContent hideOnPage1" style="">
                            <span>
-                           <a class="progressForwardButton" href="form6"><i class="fas fa-arrow-right"></i></a>
+                           <a class="progressForwardButton" href="{{url('40-percent')}}"><i class="fas fa-arrow-right"></i></a>
                            </span>
                         </div>
                      </div>
@@ -137,61 +137,112 @@
             </div>
          </div>
 
-              <!--Logo area-->
-              <div class="">
-          
-               <hr>
-               <div class="main ">
-                       <div class="grid-full">
-               <div class="slides">
-                 <div>
-                   <img src="img/elavon-logo-346.png">
+             <!--Logo area-->      
+            
+        <div class="main ">
+                    <div class="grid-full">
+            <div class="slides">
+              <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
                 
-               </div><!--/1-->
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
                <div></div>
                <div>
-                   
-                 <img src="img/eposnow-logo.png">
-               </div><!--/2-->
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
                <div></div>
                <div>
-                 <img src="img/PAX_Technology_Inc_logo.png">
-               </div><!--/3-->
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Ingenico_Logo.png">
-               </div><!--/4-->
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
                <div></div>
                <div>
-                   <img src="img/register-by-smart-volution-logo.png">
-                  </div><!--/5-->
-                  <div></div>
-                  <div>
-                   <img src="img/Pocket Apps Green Logo.webp">
-                  </div><!--/6-->
-                  <div></div>
-               </div>
-                   </div>
-               </div>
-               
-               <script>
-                   //Pass an object literal for settings
-     $('.slides').slick({
-          
-          dots: false,
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 5000,
-          arrows: true,
-          gap: 00,
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
+            </div>
+            
+                </div>
          
-   
-          
-        }); 
-               </script>
-   </div>
+            
+            <script>
+                //Pass an object literal for settings
+  $('.slides').slick({
+       
+       dots: false,
+       infinite: true,
+       slidesToShow: 4,
+       slidesToScroll: 1,
+       autoplay: true,
+       autoplaySpeed: 500,
+       arrows: true,
+       gap: 00,
+      
+
+       
+     }); 
+            </script>
+</div>
         
 
 @endsection

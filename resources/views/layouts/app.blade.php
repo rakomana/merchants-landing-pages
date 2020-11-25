@@ -26,33 +26,17 @@
       <script src="https://kit.fontawesome.com/780c19c6e7.js" crossorigin="anonymous"></script>
    </head>
 
-   <body>
-      <iframe class="hidden" src="https://"></iframe>
-      <div class="allowInherit">
-         <span class="hidden" id="cookieScriptData" data-baseloaderurl="" data-cookietext1="By continuing to use our website, you agree to the use of cookies. 
-            Click " data-cookietext2=" to find out more about cookies " data-timeout="5000" data-closebtn="show"></span><span class="hidden" id="featureDetectScriptData" data-featuredetecttext="Your browser does not appear support the functionality to run this site.  Please update your browser to use this site: " data-featuredetectlink="https://browser-update.org/update.html" data-featuredetectlinktext="Update your Browser"></span>		
-         <header>
-            <div class="contentContainer">
-               <div class="flexyContainer">
-                  <div class="flexyItem logo">
-                     <a href="{{url('/')}}"><img src="img/merchant_logo.png" class="logo-svg" alt="Logo"></a>
-                  </div>
-                  <div class="flexyItem right alignSelfCenter">
-                     <div class="secure">
-                        <i class="fas fa-lock"></i> Secure UK Site						
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </header>
+
 
         @yield('content')
+
+        
 
       <!--Footer start-->
       <footer>
          <div class="contentContainer">
             <div class="footerLogo">
-               <img src="img/merchant_logo.png" data-at2x="resources/images/logo-white@2x.png">
+            <a href="{{url('/')}}"><img src="img/merchant_logo.png"></a>
             </div>
             <a href="#">Face-to-Face Payments</a><span>|</span>
             <a href="#">Online Payments</a><span>|</span><a href="#">Who We Are</a><span>|</span>

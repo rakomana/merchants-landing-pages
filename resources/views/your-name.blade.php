@@ -37,7 +37,7 @@
                   </div>
                </div>
                <div>
-                  <form action="{{url('your-email')}}" method="post" id="formPageForm" novalidate="true">
+                  <form action="{{url('your-email')}}" method="" id="formPageForm" novalidate="true">
                      <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="fullNameErrorCombined">
                         <div class="formfieldHeader">
                            What is your full name?				
@@ -73,11 +73,9 @@
             </div>
          </div>
 
-         <!--Logo area-->
-         <div class="">
-          
-            <hr>
-            <div class="main ">
+         <!--Logo area-->      
+            
+        <div class="main ">
                     <div class="grid-full">
             <div class="slides">
               <div>
@@ -106,9 +104,62 @@
                 <img src="img/Pocket Apps Green Logo.webp">
                </div><!--/6-->
                <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
             </div>
+            
                 </div>
-            </div>
+         
             
             <script>
                 //Pass an object literal for settings
@@ -119,7 +170,7 @@
        slidesToShow: 4,
        slidesToScroll: 1,
        autoplay: true,
-       autoplaySpeed: 5000,
+       autoplaySpeed: 500,
        arrows: true,
        gap: 00,
       

@@ -1,22 +1,42 @@
 @extends('layouts.app')
 
 @section('content')
+<body>
+      <iframe class="hidden" src="https://"></iframe>
+      <div class="allowInherit">
+         <span class="hidden" id="cookieScriptData" data-baseloaderurl="" data-cookietext1="By continuing to use our website, you agree to the use of cookies. 
+            Click " data-cookietext2=" to find out more about cookies " data-timeout="5000" data-closebtn="show"></span><span class="hidden" id="featureDetectScriptData" data-featuredetecttext="Your browser does not appear support the functionality to run this site.  Please update your browser to use this site: " data-featuredetectlink="https://browser-update.org/update.html" data-featuredetectlinktext="Update your Browser"></span>		
+         <header>
+            <div class="contentContainer">
+               <div class="flexyContainer">
+                  <div class="flexyItem logo">
+                     <a href="{{url('/')}}"><img src="img/merchant_logo.png" class="logo-svg" alt="Logo"></a>
+                  </div>
+                  <div class="flexyItem right alignSelfCenter">
+                     <div class="secure">
+                        <i class="fas fa-lock"></i> Secure UK Site						
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+
 <!-- splash -->
          <div id="splashArea" class="">
             <div id="particles-js">
                <canvas class="particles-js-canvas-el" width="1349" height="678" style="width: 100%; height: 100%;"></canvas>
             </div>
-            <div class="splashLeft"></div>
-            <div class="splashRight"></div>
+            <div class="splashLeft" style="background: url(img/merch-left.svg); background-repeat: no-repeat; background-size: 18%; background-position: left center;"></div>
+            <div class="splashRight" style="background: url(img/merch-right.svg);  background-repeat: no-repeat; background-position: right center; background-size: 25%;"></div>
             <div class="contentContainer">
                <div class="flexyContainer">
                   <div class="flexyItem">
-                     <h1 class="lrg">Looking For <span style="color: #252464;">The Best<br> Merchant Account</span> Deals?</h1>
+                     <h1 class="lrg">Looking For <span style="color: #ac4c7c;">The Best<br> Merchant Account</span> Deals?</h1>
                      <h2>Compare Leading Merchant Accounts With One Simple Form</h2>
                      <div class="splashButtonContainer">
-                        <div class="splashBullet">Compare merchant accounts from leading providers</div>
-                        <div class="splashBullet">Save £££s in processing fees</div>
-                        <div class="splashBullet">Free No Obligation Quote</div>
+                        <div class="splashBullet" style="background: url(img/splash-bullet.svg); background-position: 0% 50%; background-repeat: no-repeat; background-size: 16px; ">Compare merchant accounts from leading providers</div><br>
+                        <div class="splashBullet" style="background: url(img/splash-bullet.svg); background-position: 0% 50%; background-repeat: no-repeat; background-size: 16px; ">Save £££s in processing fees</div>
+                        <div class="splashBullet" style="background: url(img/splash-bullet.svg); background-position: 0% 50%; background-repeat: no-repeat; background-size: 16px; ">Free No Obligation Quote</div>
                      </div>
                      <a class="splashButton pulse" href="{{url('start-quote')}}">Start Free Quote</a>
                   </div>
@@ -26,10 +46,8 @@
          </div>
          <!-- end splash -->
          <!--logo area-->
-          <!--Logo area-->
-          <div class="">
-          
-            <hr>
+          <!--Logo area-->      
+            
             <div class="main ">
                     <div class="grid-full">
             <div class="slides">
@@ -59,9 +77,62 @@
                 <img src="img/Pocket Apps Green Logo.webp">
                </div><!--/6-->
                <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
             </div>
+            
                 </div>
-            </div>
+         
             
             <script>
                 //Pass an object literal for settings
