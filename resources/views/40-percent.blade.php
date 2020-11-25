@@ -16,7 +16,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form4/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('quote-2-yes-2')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -30,15 +30,15 @@
                      <div class="flexyItem">
                         <div class="meterBut pagedContent hideOnPage1" style="">
                            <span>
-                           <a class="progressForwardButton" href="form6"><i class="fas fa-arrow-right"></i></a>
+                           <a class="progressForwardButton" href="{{url('your-company')}}"><i class="fas fa-arrow-right"></i></a>
                            </span>
                         </div>
                      </div>
                   </div>
                </div>
                <div>
-                  <form action="{{url('your-company')}}" method="GET" id="formPageForm" novalidate="true">
-                     <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="paymentAcceptanceMethodCollectionErrorCombined">
+                  <form action="{{url('your-company')}}" method="" id="formPageForm" novalidate="true">
+                     <div class="sectionContainer   boxed boxedSubmit" data-combinederrorid="paymentAcceptanceMethodCollectionErrorCombined">
                         <div class="formfieldHeader">
                            How would you like to accept payments?				
                         </div>

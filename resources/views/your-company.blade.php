@@ -17,7 +17,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="{{url(40-percent')}}"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="form1/Backwards"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -38,7 +38,7 @@
                   </div>
                </div>
                <div>
-                  <form action="{{url('address')}}" method="" id="formPageForm" novalidate="true">
+                  <form action="{{url('address')}}" method="post, GET" id="formPageForm" novalidate="true">
                      <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="companyNameErrorCombined">
                         <div class="formfieldHeader">
                            What is your company name?				
