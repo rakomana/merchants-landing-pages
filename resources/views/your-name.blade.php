@@ -16,7 +16,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form5/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('address')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -30,7 +30,7 @@
                      <div class="flexyItem">
                         <div class="meterBut pagedContent hideOnPage1">
                            <span>
-                           <a class="progressForwardButton" href="form7"><i class="fas fa-arrow-right"></i></a>
+                           <a class="progressForwardButton" href="{{url('your-email')}}"><i class="fas fa-arrow-right"></i></a>
                            </span>
                         </div>
                      </div>
@@ -165,18 +165,27 @@
                 //Pass an object literal for settings
   $('.slides').slick({
        
-       dots: false,
-       infinite: true,
-       slidesToShow: 4,
-       slidesToScroll: 1,
-       autoplay: true,
-       autoplaySpeed: 500,
-       arrows: true,
-       gap: 00,
-      
-
-       
-     }); 
+   slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase:'linear',
+        infinite: true,
+        focusOnSelect: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+        }]
+    });
             </script>
 </div>
 

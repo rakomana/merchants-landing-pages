@@ -1343,7 +1343,7 @@ header .flexyItem {
 
 .pageButton:hover {
   color: #fff;
-  background: #484594;
+  background:#252464;
 
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
@@ -1355,7 +1355,7 @@ header .flexyItem {
 	font-size: 34px;
 	line-height: 43px;
 	letter-spacing: 0px;
-	color: #7175e1;
+	color: #252464;
 	text-align: left;
 	font-weight: 700;
 	margin: 0px;
@@ -1383,7 +1383,7 @@ header .flexyItem {
 
 
 table {
-	border: 1px solid #1C6EA4;
+	border: 1px solid #252464;
 	background-color: #fff;
 	width: 100%;
 	text-align: left;
@@ -1392,7 +1392,7 @@ table {
 }
 
 table th {
-	background-color: #7175e1;
+	background-color: #252464;
 	color: #fff;
 }
 
@@ -1412,9 +1412,9 @@ table td, table th {
   padding: 40px 0px;
   position: relative;
   background: #424596;
-  background: -moz-linear-gradient(-45deg, #424596 0%, #ca4560 100%);
-  background: -webkit-linear-gradient(-45deg, #424596 0%, #ca4560 100%);
-  background: linear-gradient(135deg, #424596 0%, #ca4560 100%);
+  background: -moz-linear-gradient(-45deg, #252464 0%, #ca4560 100%);
+  background: -webkit-linear-gradient(-45deg, #252464 0%, #ca4560 100%);
+  background: linear-gradient(135deg, #252464 0%, #ca4560 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(
       startColorstr="#424596",
       endColorstr="#ca4560",

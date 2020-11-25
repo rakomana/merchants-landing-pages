@@ -170,18 +170,27 @@
                 //Pass an object literal for settings
   $('.slides').slick({
        
-       dots: false,
-       infinite: true,
-       slidesToShow: 4,
-       slidesToScroll: 1,
-       autoplay: true,
-       autoplaySpeed: 500,
-       arrows: true,
-       gap: 00,
-      
-
-       
-     }); 
+   slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase:'linear',
+        infinite: true,
+        focusOnSelect: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+        }]
+    });
             </script>
 </div>
 @endsection

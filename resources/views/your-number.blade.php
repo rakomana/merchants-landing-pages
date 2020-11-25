@@ -16,7 +16,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form5/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('your-email')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -56,7 +56,7 @@
                                     <div class="waitInfoTxt">
                                        <div class="waitIco">
                                        </div>
-                                       <div class="textRotation" data-textarray="[&quot;Thank you for your application %!firstName!%...&quot;,&quot;You may receive an email at the end of this process, please check your spam.&quot;,&quot;We're starting our search for you now...&quot;,&quot;It may take upto 2 minutes for our search to complete...&quot;,&quot;Please do not close your screen or click away from this page...&quot;,&quot;Still searching %!firstName!%...&quot;,&quot;Whilst we're waiting for a decision %!firstName!%, let's play a quick game to pass the time...&quot;,&quot;Think of a number... any number...&quot;,&quot;I'm going to guess what you're thinking... I'm ALWAYS right...&quot;,&quot;Add 3 to the number that you've thought of...&quot;,&quot;Now double it...&quot;,&quot;Subtract 4 from your new number...&quot;,&quot;Now cut this number in half...&quot;,&quot;Subtract your new number from your original number...&quot;,&quot;Have you worked out what your new number is?&quot;,&quot;Ready for my guess?&quot;,&quot;Ok... your answer is...&quot;,&quot;One...&quot;,&quot;Am I right?&quot;,&quot;I did say that I'm always right...&quot;,&quot;Still searching %!firstName!%, we're almost there now...&quot;]" data-delaytime="5000">Thank you for your application paul</div>
+                                       <div class="textRotation" data-textarray="[&quot;Thank you for your application %!firstName!%...&quot;,&quot;You may receive an email at the end of this process, please check your spam.&quot;,&quot;We're starting our search for you now...&quot;,&quot;It may take upto 2 minutes for our search to complete...&quot;,&quot;Please do not close your screen or click away from this page...&quot;,&quot;Still searching %!firstName!%...&quot;,&quot;Whilst we're waiting for a decision %!firstName!%, let's play a quick game to pass the time...&quot;,&quot;Think of a number... any number...&quot;,&quot;I'm going to guess what you're thinking... I'm ALWAYS right...&quot;,&quot;Add 3 to the number that you've thought of...&quot;,&quot;Now double it...&quot;,&quot;Subtract 4 from your new number...&quot;,&quot;Now cut this number in half...&quot;,&quot;Subtract your new number from your original number...&quot;,&quot;Have you worked out what your new number is?&quot;,&quot;Ready for my guess?&quot;,&quot;Ok... your answer is...&quot;,&quot;One...&quot;,&quot;Am I right?&quot;,&quot;I did say that I'm always right...&quot;,&quot;Still searching %!firstName!%, we're almost there now...&quot;]" data-delaytime="5000">Thank you for your application</div>
                                     </div>
                                  </div>
                               </span>
@@ -96,7 +96,7 @@
                         <div class="flexyContainer justifyCentral">
                            <div class="errorMessageBound flexyItem ">
                               <span class="staticField" id="null1" data-displayif="true" data-requiredif="false" data-disabledif="false">
-                                 <div class="splashSmlTxtTwo">By selecting Get Quote, you confirm that you have read and agree with our <a href="#" style="color: #252464;">Privacy Policy</a>, our <a href="#" style="color: #252464;">Terms &amp; Conditions</a> and agree to be contacted by a reputable <a href="#" data-display="partnerList" class="openIziModal" style="color: #252464;">merchant account supplier</a> by Telephone, Email and SMS to discuss your options and provide a quote (with no obligation).					</div>
+                                 <div class="splashSmlTxtTwo">By selecting Get Quote, you confirm that you have read and agree with our <a href="https://energizemerchantservices.com/privacy" style="color: #252464;">Privacy Policy</a>, our <a href="#" style="color: #252464;">Terms &amp; Conditions</a> and agree to be contacted by a reputable <a href="#" data-display="partnerList" class="openIziModal" style="color: #252464;">merchant account supplier</a> by Telephone, Email and SMS to discuss your options and provide a quote (with no obligation).					</div>
                               </span>
                            </div>
                         </div>
@@ -199,18 +199,27 @@
                 //Pass an object literal for settings
   $('.slides').slick({
        
-       dots: false,
-       infinite: true,
-       slidesToShow: 4,
-       slidesToScroll: 1,
-       autoplay: true,
-       autoplaySpeed: 500,
-       arrows: true,
-       gap: 00,
-      
-
-       
-     }); 
+   slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase:'linear',
+        infinite: true,
+        focusOnSelect: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+        }]
+    });
             </script>
 </div>
 
