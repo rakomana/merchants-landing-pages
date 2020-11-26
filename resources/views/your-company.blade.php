@@ -704,6 +704,10 @@
                         this.error = 'please fill in the missing values'
                         return false;
                     }
+                     else if (!this.validEmail(this.form.email)) {
+                        this.error = 'Valid email required.';
+                        return false;
+                     }
                 }
                 
 
@@ -712,6 +716,10 @@
            prevStep: function() {
                this.step--;
            },
+           validEmail: function (email) {
+               var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+               return re.test(email);
+            },
            sendQuote: function() {
                if(this.step == 5)
                 {

@@ -24,7 +24,7 @@ class QuoteController extends Controller
      */
     public function index()
     {
-        return view('your-company');
+        return view('thank-you');
     }
 
     /**
