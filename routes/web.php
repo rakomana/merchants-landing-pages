@@ -33,6 +33,11 @@ Route::get('quote-2-yes-2', function () {
     return view('quote-2-yes-2');
 });
 
+Route::get('quote-2-no', function () {
+    return view('quote-2-no');
+});
+
+
 Route::get('quote-2-yes', function () {
     return view('quote-2-yes');
 });
@@ -51,6 +56,10 @@ Route::get('your-number', function () {
 
 Route::get('your-email', function () {
     return view('your-email');
+});
+
+Route::get('thank-you', function () {
+    return view('thank-you');
 });
 
 Auth::routes();

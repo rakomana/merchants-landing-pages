@@ -63,11 +63,11 @@
                            <div class="errorMessageBound flexyItem paddingTop10 width100Percent">
                               <div id="hasProvider0" class="flexyContainer paddingTop20 justifyCentral flex multipleFieldParent has3Children centerByMargin" data-fieldname="hasProvider" data-validatevia="validateArray" data-validateextra="{&quot;values&quot;:[{&quot;value&quot;:&quot;Yes&quot;},{&quot;value&quot;:&quot;No&quot;}]}" data-validateinvalidates="null" data-validatelinkedfields="null" data-enabled="true" data-value="" data-requiredif="true" data-displayif="true" data-disabledif="false">
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="hasProvider" id="hasProvider0Yes" value="Yes" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes')}}" style="color: whitesmoke;">Yes</a></button>
+                                    <a href="{{url('quote-2-yes')}}" type="submit" name="hasProvider" id="hasProvider0Yes" value="Yes" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Yes</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="hasProvider" id="hasProvider0No" value="No" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes')}}" style="color: whitesmoke;">No</a></button></button>
+                                    <a href="{{url('quote-2-no')}}" type="submit" name="hasProvider" id="hasProvider0No" value="No" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">No</a>
                                  </div>
                               </div>
                               <div>

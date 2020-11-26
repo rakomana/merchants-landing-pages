@@ -23,6 +23,7 @@
       <script src="{{asset('js/runScripts-v1.js')}}"></script>
       <script src="{{asset('js/script.js')}}"></script>
       <script src="{{asset('js/slick-v1.js')}}"></script>
+     
       <script src="https://kit.fontawesome.com/780c19c6e7.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

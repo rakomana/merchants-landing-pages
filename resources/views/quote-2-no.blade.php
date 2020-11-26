@@ -52,27 +52,27 @@
                            <div class="errorMessageBound flexyItem paddingTop10 width100Percent">
                               <div id="cardPaymentAmount0" class="flexyContainer paddingTop20 justifyCentral flex sml multipleFieldParent has3Children centerByMargin" data-fieldname="cardPaymentAmount" data-validatevia="validateArray" data-validateextra="{&quot;values&quot;:[{&quot;value&quot;:1000},{&quot;value&quot;:10000},{&quot;value&quot;:15000},{&quot;value&quot;:50000},{&quot;value&quot;:100000},{&quot;value&quot;:100001}]}" data-validateinvalidates="null" data-validatelinkedfields="null" data-enabled="true" data-value="" data-requiredif="{&quot;checks&quot;:[{&quot;*hasProvider&quot;:{&quot;op&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;Yes&quot;}}]}" data-displayif="{&quot;checks&quot;:[{&quot;*hasProvider&quot;:{&quot;op&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;Yes&quot;}}]}" data-disabledif="false">
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount01000" value="1000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">Upto £1,000</button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount01000" value="1000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Upto £1,000</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount010000" value="10000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">£1,000 - £10,000</button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount010000" value="10000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£1,000 - £10,000</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount050000" value="50000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">£10,000 - £50,000</button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount050000" value="50000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£10,000 - £50,000</a>
                                  </div>
                                  <div class="flexyLineBreak">&nbsp;</div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount0100000" value="100000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">£50,000 - £100,000</button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount0100000" value="100000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£50,000 - £100,000</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount0100001" value="100001" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">£100,000+</button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount0100001" value="100001" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£100,000+</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount015000" value="15000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField">Unsure</button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount015000" value="15000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Unsure</a>
                                  </div>
                               </div>
                               <div>
@@ -98,27 +98,27 @@
                            <div class="errorMessageBound flexyItem paddingTop10 width100Percent">
                               <div id="cardPaymentAmount1" class="flexyContainer paddingTop20 justifyCentral flex sml multipleFieldParent has3Children centerByMargin" data-fieldname="cardPaymentAmount" data-validatevia="validateArray" data-validateextra="{&quot;values&quot;:[{&quot;value&quot;:1000},{&quot;value&quot;:10000},{&quot;value&quot;:15000},{&quot;value&quot;:50000},{&quot;value&quot;:100000},{&quot;value&quot;:100001}]}" data-validateinvalidates="null" data-validatelinkedfields="null" data-enabled="true" data-value="" data-requiredif="{&quot;checks&quot;:[{&quot;*hasProvider&quot;:{&quot;op&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;No&quot;}}]}" data-displayif="{&quot;checks&quot;:[{&quot;*hasProvider&quot;:{&quot;op&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;No&quot;}}]}" data-disabledif="">
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount11000" value="1000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('40-percent')}}" style="text-decoration: none; color: whitesmoke;">Upto £1,000</a></button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount11000" value="1000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Upto £1,000</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount110000" value="10000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('40-percent')}}" style="text-decoration: none; color: whitesmoke;">£1,000 - £10,000</a></button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount110000" value="10000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£1,000 - £10,000</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount150000" value="50000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('40-percent')}}" style="text-decoration: none; color: whitesmoke;">£10,000 - £50,000</a></button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount150000" value="50000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£10,000 - £50,000</a>
                                  </div>
                                  <div class="flexyLineBreak">&nbsp;</div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount1100000" value="100000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('40-percent')}}" style="text-decoration: none; color: whitesmoke;">£50,000 - £100,000</a></button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount1100000" value="100000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£50,000 - £100,000</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount1100001" value="100001" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('40-percent')}}" style="text-decoration: none; color: whitesmoke;">£100,000+</a></button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount1100001" value="100001" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">£100,000+</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="cardPaymentAmount" id="cardPaymentAmount115000" value="15000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('40-percent')}}" style="text-decoration: none; color: whitesmoke;">Unsure</a></button>
+                                    <a href="{{url('40-percent')}}" type="submit" name="cardPaymentAmount" id="cardPaymentAmount115000" value="15000" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Unsure</a>
                                  </div>
                               </div>
                               <div>

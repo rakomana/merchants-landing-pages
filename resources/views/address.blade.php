@@ -45,7 +45,7 @@
                         </div>
                         <div class="fieldInfoTxt">
                            <div class="infoIco">
-                              <img src="img/info.svg" data-at2x="resources/images/info@2x.png"> 
+                              <img src="img/info.svg"> 
                            </div>
                            We use your address information to ensure that quotes are as accurate as possible for your area.				
                         </div>
@@ -65,6 +65,7 @@
                            <label class="fieldValidationError hidden fullAddressErrorCombined">&nbsp;</label>
                         </div>
                      </div>
+                     
                      <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitStart marginTopMinus30 whiteBackground roundedtop" data-combinederrorid="houseErrorCombined">
                         <div class="formfieldHeader">
                            What is your company's address?				
@@ -260,7 +261,7 @@
                 //Pass an object literal for settings
   $('.slides').slick({
        
-   slidesToShow: 3,
+        slidesToShow: 3,
         autoplay: true,
         autoplaySpeed: 0,
         speed: 5000,

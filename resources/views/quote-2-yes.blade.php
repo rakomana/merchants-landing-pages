@@ -52,27 +52,27 @@
                            <div class="errorMessageBound flexyItem paddingTop10 width100Percent">
                               <div id="currentProvider0" class="flexyContainer paddingTop20 justifyCentral flex multipleFieldParent has3Children centerByMargin" data-fieldname="currentProvider" data-validatevia="validateArray" data-validateextra="{&quot;values&quot;:[{&quot;value&quot;:&quot;Worldpay&quot;},{&quot;value&quot;:&quot;Retail Merchant Services&quot;},{&quot;value&quot;:&quot;Elavon&quot;},{&quot;value&quot;:&quot;First Data&quot;},{&quot;value&quot;:&quot;Stripe&quot;},{&quot;value&quot;:&quot;Other&quot;},{&quot;value&quot;:&quot;Barclaycard&quot;}]}" data-validateinvalidates="null" data-validatelinkedfields="null" data-enabled="true" data-value="" data-requiredif="{&quot;checks&quot;:[{&quot;*hasProvider&quot;:{&quot;op&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;Yes&quot;}}]}" data-displayif="{&quot;checks&quot;:[{&quot;*hasProvider&quot;:{&quot;op&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;Yes&quot;}}]}" data-disabledif="false">
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="currentProvider" id="currentProvider0Worldpay" value="Worldpay" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes-2')}}" style="text-decoration: none; color: whitesmoke;">Worldpay</a></button>
+                                    <a href="{{url('quote-2-yes-2')}}" type="submit" name="currentProvider" id="currentProvider0Worldpay" value="Worldpay" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Worldpay</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="currentProvider" id="currentProvider0RetailMerchantServices" value="Retail Merchant Services" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes-2')}}" style="text-decoration: none; color: whitesmoke;">Retail Merchant Services</a></button>
+                                    <a href="{{url('quote-2-yes-2')}}" type="submit" name="currentProvider" id="currentProvider0RetailMerchantServices" value="Retail Merchant Services" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Retail Merchant Services</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="currentProvider" id="currentProvider0Elavon" value="Elavon" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes-2')}}" style="text-decoration: none; color: whitesmoke;">Elavon</a></button>
+                                    <a href="{{url('quote-2-yes-2')}}" type="submit" name="currentProvider" id="currentProvider0Elavon" value="Elavon" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Elavon</a>
                                  </div>
                                  <div class="flexyLineBreak">&nbsp;</div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="currentProvider" id="currentProvider0FirstData" value="First Data" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes-2')}}" style="text-decoration: none; color: whitesmoke;">First Data</a></button>
+                                    <a href="{{url('quote-2-yes-2')}}" type="submit" name="currentProvider" id="currentProvider0FirstData" value="First Data" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">First Data</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="currentProvider" id="currentProvider0Barclaycard" value="Barclaycard" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes-2')}}" style="text-decoration: none; color: whitesmoke;">Barclaycard</a></button>
+                                    <a href="{{url('quote-2-yes-2')}}" type="submit" name="currentProvider" id="currentProvider0Barclaycard" value="Barclaycard" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Barclaycard</a>
                                  </div>
                                  <div class="flexyDivider"></div>
                                  <div class="flexyItem centerContentsByMargin ">
-                                    <button type="submit" name="currentProvider" id="currentProvider0Other" value="Other" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField"><a href="{{url('quote-2-yes-2')}}" style="text-decoration: none; color: whitesmoke;">Other</a></button>
+                                    <a href="{{url('quote-2-yes-2')}}" type="submit" name="currentProvider" id="currentProvider0Other" value="Other" class="squareFormButton aTypeOfButton fieldForValidation byAjaxSubmit multipleField my-btn">Other</a>
                                  </div>
                               </div>
                               <div>
