@@ -19,6 +19,11 @@ class CreateQuotesTable extends Migration
             $table->string('full_name');
             $table->string('email');
             $table->string('phone_number');
+            $table->string('house_number');
+            $table->string('street_name');
+            $table->string('town');
+            $table->string('country');
+            $table->string('post_code');
             $table->timestamps();
         });
     }

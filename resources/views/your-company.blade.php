@@ -84,6 +84,173 @@
             <div class="contentContainer formAreaContainer">
                <div class="contentContainer">
                   <div class="meterTxt pagedContent hideOnPage1">
+                     <span id="progressNumber">54</span>% Complete
+                  </div>
+                  <div class="flexyContainer applyMeter pagedContent hideOnPage1">
+                     <div class="flexyItem">
+                        <div class="meterBut">
+                           <span>
+                           <a class="progressBackButton" href="{{url('your-company')}}"><i class="fas fa-arrow-left"></i></a>
+                           </span>
+                        </div>
+                     </div>
+                     <div class="flexyItem pagedContent hideOnPage1">
+                        <div class="meter">
+                           <progress max="100" value="54">
+                           <span class="widthPercent60"></span>
+                           </progress>
+                        </div>
+                     </div>
+                     <div class="flexyItem">
+                        <div class="meterBut pagedContent hideOnPage1">
+                           <span>
+                           <a class="progressForwardButton" href="{{url('your-name')}}"><i class="fas fa-arrow-right"></i></a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <form action="{{url('your-name')}}" method="" id="formPageForm" novalidate="true">
+                     <div class="sectionContainer errorMessageBound boxed hidden" data-combinederrorid="fullAddressErrorCombined">
+                        <div class="formfieldHeader">
+                           What is your company's address?				
+                        </div>
+                        <div class="fieldInfoTxt">
+                           <div class="infoIco">
+                              <img src="img/info.svg" data-at2x="resources/images/info@2x.png"> 
+                           </div>
+                           We use your address information to ensure that quotes are as accurate as possible for your area.				
+                        </div>
+                        <div class="flexyContainer justifyCentral">
+                           <div class="errorMessageBound flexyItem noGrowDesktop paddingTop20">
+                              <span class="inputContainer inputContainerAkira small">
+                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookup singleField fieldForValidation byChange" name="fullAddress" id="fullAddress0" value="" data-validatevia="validateFalse" data-validateextra="" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*county&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*house&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*postcode&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*street&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*town&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}}]}" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*county&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*house&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*postcode&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*street&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*town&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$"><label class="inputLabel inputLabelAkira" for="fullAddress">
+                              <span class="inputLabelContent inputLabelContentAkira">Start typing your address</span>
+                              </label>
+                              </span>
+                              <div>
+                                 <label class="fieldValidationError hidden fullAddressError">&nbsp;</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <label class="fieldValidationError hidden fullAddressErrorCombined">&nbsp;</label>
+                        </div>
+                     </div>
+                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitStart marginTopMinus30 whiteBackground roundedtop" data-combinederrorid="houseErrorCombined">
+                        <div class="formfieldHeader">
+                           What is your company's address?				
+                        </div>
+                        <div class="fieldInfoTxt">
+                           <div class="infoIco">
+                              <img src="img/info.svg" data-at2x="resources/images/info@2x.png"> 
+                           </div>
+                           We use your address information to ensure that quotes are as accurate as possible for your area.				
+                        </div>
+                        <div class="flexyContainer justifyCentral">
+                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                              <span class="inputContainer inputContainerAkira small inputFilled">
+                              <input autocomplete="off" v-model="form.house_number" class="inputField inputFieldAkira doAddressLookupInput street_number short_name singleField fieldForValidation byChange" name="house" v-model="form.street_name" id="house0" value="" data-validatevia="validateText" data-validateextra="" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="house">
+                              <span class="inputLabelContent inputLabelContentAkira">House Number or Name</span>
+                              </label>
+                              </span>
+                              <div>
+                                 <label class="fieldValidationError hidden houseError">&nbsp;</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <label class="fieldValidationError hidden houseErrorCombined">&nbsp;</label>
+                        </div>
+                     </div>
+                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle marginTopMinus30 whiteBackground paddingTop20" data-combinederrorid="streetErrorCombined">
+                        <div class="flexyContainer justifyCentral">
+                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                              <span class="inputContainer inputContainerAkira small inputFilled">
+                              <input autocomplete="off" v-model="form.street_name" class="inputField inputFieldAkira doAddressLookupInput route long_name singleField fieldForValidation byChange" name="street" id="street0" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:1}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="street">
+                              <span class="inputLabelContent inputLabelContentAkira">Street Name</span>
+                              </label>
+                              </span>
+                              <div>
+                                 <label class="fieldValidationError hidden streetError">&nbsp;</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <label class="fieldValidationError hidden streetErrorCombined">&nbsp;</label>
+                        </div>
+                     </div>
+                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle marginTopMinus30 whiteBackground paddingTop20" data-combinederrorid="townErrorCombined">
+                        <div class="flexyContainer justifyCentral">
+                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                              <span class="inputContainer inputContainerAkira small inputFilled">
+                              <input autocomplete="off" v-model="form.town" class="inputField inputFieldAkira doAddressLookupInput postal_town long_name singleField fieldForValidation byChange" name="town" id="town0" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="town">
+                              <span class="inputLabelContent inputLabelContentAkira">Town</span>
+                              </label>
+                              </span>
+                              <div>
+                                 <label class="fieldValidationError hidden townError">&nbsp;</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <label class="fieldValidationError hidden townErrorCombined">&nbsp;</label>
+                        </div>
+                     </div>
+                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle marginTopMinus30 whiteBackground paddingTop20" data-combinederrorid="countyErrorCombined">
+                        <div class="flexyContainer justifyCentral">
+                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                              <span class="inputContainer inputContainerAkira small inputFilled">
+                              <input autocomplete="off" v-model="form.country" class="inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange" name="county" id="county0" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="county">
+                              <span class="inputLabelContent inputLabelContentAkira">County</span>
+                              </label>
+                              </span>
+                              <div>
+                                 <label class="fieldValidationError hidden countyError">&nbsp;</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <label class="fieldValidationError hidden countyErrorCombined">&nbsp;</label>
+                        </div>
+                     </div>
+                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle paddingBottom20 marginTopMinus30 whiteBackground roundedBottom boxedSubmit paddingTop20" data-combinederrorid="postcodeErrorCombined">
+                        <div class="flexyContainer justifyCentral">
+                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                              <span class="inputContainer inputContainerAkira small inputFilled">
+                              <input autocomplete="off" v-model="form.post_code" class="inputField inputFieldAkira doAddressLookupInput postal_code short_name singleField fieldForValidation byChange" name="postcode" id="postcode0" value="" data-validatevia="validateText" data-validateextra="{&quot;pattern&quot;:&quot;^[[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]?[ ]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$&quot;}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^[[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]?[ ]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$" required=""><label class="inputLabel inputLabelAkira" for="postcode">
+                              <span class="inputLabelContent inputLabelContentAkira">Postcode</span>
+                              </label>
+                              </span>
+                              <div>
+                                 <label class="fieldValidationError hidden postcodeError">&nbsp;</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <label class="fieldValidationError hidden postcodeErrorCombined">&nbsp;</label>
+                        </div>
+                        <div class="appButtonWrapper">
+                           <button @click.prevent="prevStep" class="formButton pulse"> 
+                              <i class="fas fa-arrow-left"></i>
+                              Previous
+                           </button>
+                           <button @click.prevent="nextStep" class="formButton pulse">
+                              Continue 
+                              <i class="fas fa-arrow-right"></i>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="lineBreak10"></div>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <section v-if="step == 3">
+            <div class="contentContainer formAreaContainer">
+               <div class="contentContainer">
+                  <div class="meterTxt pagedContent hideOnPage1">
                      <span id="progressNumber">70</span>% Complete
                   </div>
                   <div class="flexyContainer applyMeter pagedContent hideOnPage1">
@@ -151,7 +318,7 @@
                </div>
             </div>
          </section>
-         <section v-if="step == 3">
+         <section v-if="step == 4">
             <div class="contentContainer formAreaContainer">
                <div class="contentContainer">
                   <div class="meterTxt pagedContent hideOnPage1">
@@ -239,7 +406,7 @@
                </div>
             </div>
          </section>
-         <section v-if="step == 4">
+         <section v-if="step == 5">
             <div class="contentContainer formAreaContainer">
                <div class="contentContainer">
                   <div class="meterTxt pagedContent hideOnPage1">
@@ -338,6 +505,7 @@
                </div>
             </div>
          </section>
+         
          </div>
    </form>
       </div>
@@ -461,7 +629,7 @@
        el: "#implement",
        data: {
            step: 1,
-           totalsteps: 4,
+           totalsteps: 5,
            error: null,
            loading: false,
            form: {
@@ -469,6 +637,11 @@
                full_name: null,
                email: null,
                phone_number: null,
+               house_number: null,
+               street_name: null,
+               town: null,
+               country: null,
+               post_code: null,
            }
        },
        methods: {
@@ -486,6 +659,36 @@
                 if(this.step == 2)
                 {
                     this.error = null
+                    if(!this.form.house_number)
+                    {
+                        this.error = 'please fill in the missing values'
+                        return false;
+                    }
+                    if(!this.form.street_name)
+                    {
+                        this.error = 'please fill in the missing values'
+                        return false;
+                    }
+                    if(!this.form.town)
+                    {
+                        this.error = 'please fill in the missing values'
+                        return false;
+                    }
+                    if(!this.form.country)
+                    {
+                        this.error = 'please fill in the missing values'
+                        return false;
+                    }
+                    if(!this.form.post_code)
+                    {
+                        this.error = 'please fill in the missing values'
+                        return false;
+                    }
+                }
+
+                if(this.step == 3)
+                {
+                    this.error = null
                     if(!this.form.full_name)
                     {
                         this.error = 'please fill in the missing values'
@@ -493,7 +696,7 @@
                     }
                 }
                 
-                if(this.step == 3)
+                if(this.step == 4)
                 {
                     this.error = null
                     if(!this.form.email)
@@ -510,7 +713,7 @@
                this.step--;
            },
            sendQuote: function() {
-               if(this.step == 4)
+               if(this.step == 5)
                 {
                     this.error = null
                     if(!this.form.phone_number)

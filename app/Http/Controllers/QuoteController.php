@@ -40,6 +40,11 @@ class QuoteController extends Controller
         $quote->full_name = $request->full_name;
         $quote->email = $request->email;
         $quote->phone_number = $request->phone_number;
+        $quote->house_number = $request->house_number;
+        $quote->street_name = $request->street_name;
+        $quote->town = $request->town;
+        $quote->country = $request->country;
+        $quote->post_code = $request->post_code;
         $quote->save();
 
     }
