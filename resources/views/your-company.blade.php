@@ -19,7 +19,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form1/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('40-percent')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -33,14 +33,13 @@
                      <div class="flexyItem">
                         <div class="meterBut pagedContent hideOnPage1" style="">
                            <span>
-                           <a class="progressForwardButton"><i class="fas fa-arrow-right"></i></a>
+                           <a class="progressForwardButton" href="{{url('address')}}"><i class="fas fa-arrow-right"></i></a>
                            </span>
                         </div>
                      </div>
                   </div>
                </div>
                <div>
-
                      <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="companyNameErrorCombined">
                         <div class="formfieldHeader">
                            What is your company name?				
@@ -340,11 +339,9 @@
          </section>
          </div>
 
-          <!--Logo area-->
-          <div class="">
-          
-            <hr>
-            <div class="main ">
+          <!--Logo area-->      
+            
+        <div class="main ">
                     <div class="grid-full">
             <div class="slides">
               <div>
@@ -373,9 +370,62 @@
                 <img src="img/Pocket Apps Green Logo.webp">
                </div><!--/6-->
                <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
             </div>
+            
                 </div>
-            </div>
+         
             
             <script>
                 //Pass an object literal for settings
@@ -435,4 +485,5 @@
 </div>
 </form>
 </div>
+
 @endsection

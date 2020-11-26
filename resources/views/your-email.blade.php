@@ -16,7 +16,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form5/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('your-name')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -30,14 +30,14 @@
                      <div class="flexyItem">
                         <div class="meterBut pagedContent hideOnPage1">
                            <span>
-                           <a class="progressForwardButton" href="form7"><i class="fas fa-arrow-right"></i></a>
+                           <a class="progressForwardButton" href="{{url('your-number')}}"><i class="fas fa-arrow-right"></i></a>
                            </span>
                         </div>
                      </div>
                   </div>
                </div>
                <div>
-                  <form action="{{url('your-number')}}" method="post" id="formPageForm" novalidate="true">
+                  <form action="{{url('your-number')}}" method="" id="formPageForm" novalidate="true">
                      <div class="sectionContainer errorMessageBound boxed boxedSubmit" data-combinederrorid="emailErrorCombined">
                         <div class="formfieldHeader">
                            What is your email address?				
@@ -90,11 +90,9 @@
             </div>
          </div>
 
-         <!--Logo area-->
-         <div class="">
-          
-            <hr>
-            <div class="main ">
+        <!--Logo area-->      
+            
+        <div class="main ">
                     <div class="grid-full">
             <div class="slides">
               <div>
@@ -123,26 +121,88 @@
                 <img src="img/Pocket Apps Green Logo.webp">
                </div><!--/6-->
                <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
             </div>
+            
                 </div>
-            </div>
+         
             
             <script>
                 //Pass an object literal for settings
   $('.slides').slick({
        
-       dots: false,
-       infinite: true,
-       slidesToShow: 4,
-       slidesToScroll: 1,
-       autoplay: true,
-       autoplaySpeed: 5000,
-       arrows: true,
-       gap: 00,
-      
-
-       
-     }); 
+   slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase:'linear',
+        infinite: true,
+        focusOnSelect: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+        }]
+    });
             </script>
 </div>
 

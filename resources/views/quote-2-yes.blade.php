@@ -15,7 +15,7 @@
                      <div class="flexyItem">
                         <div class="meterBut">
                            <span>
-                           <a class="progressBackButton" href="form1/Backwards"><i class="fas fa-arrow-left"></i></a>
+                           <a class="progressBackButton" href="{{url('start-quote')}}"><i class="fas fa-arrow-left"></i></a>
                            </span>
                         </div>
                      </div>
@@ -29,14 +29,14 @@
                      <div class="flexyItem">
                         <div class="meterBut pagedContent hideOnPage1">
                            <span>
-                           <a class="progressForwardButton" href="form3"><i class="fas fa-arrow-right"></i></a>
+                           <a class="progressForwardButton" href="{{url('quote-2-yes-2')}}"><i class="fas fa-arrow-right"></i></a>
                            </span>
                         </div>
                      </div>
                   </div>
                </div>
                <div>
-                  <form action="#" method="post" id="formPageForm" novalidate="true">
+                  <form action="{{url('quote-2-yes-2')}}" method="GET" id="formPageForm" novalidate="true">
                      <input type="hidden" name="csrfToken" id="csrfToken" value="9613f12001ce9ce17308178f504bf5bced4ee59edb786e96be113d420153fc04">
                      <div class="sectionContainer errorMessageBound boxed" data-combinederrorid="currentProviderErrorCombined">
                         <div class="formfieldHeader">
@@ -90,11 +90,9 @@
             </div>
          </div>
 
-          <!--Logo area-->
-          <div class="">
-          
-            <hr>
-            <div class="main ">
+ <!--Logo area-->      
+            
+ <div class="main ">
                     <div class="grid-full">
             <div class="slides">
               <div>
@@ -123,26 +121,88 @@
                 <img src="img/Pocket Apps Green Logo.webp">
                </div><!--/6-->
                <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
+               <div>
+                <img src="img/elavon-logo-346.png">
+             
+            </div><!--/1-->
+            <div></div>
+            <div>
+                
+              <img src="img/eposnow-logo.png">
+            </div><!--/2-->
+            <div></div>
+            <div>
+              <img src="img/PAX_Technology_Inc_logo.png">
+            </div><!--/3-->
+            <div></div>
+            <div>
+             <img src="img/Ingenico_Logo.png">
+            </div><!--/4-->
+            <div></div>
+            <div>
+                <img src="img/register-by-smart-volution-logo.png">
+               </div><!--/5-->
+               <div></div>
+               <div>
+                <img src="img/Pocket Apps Green Logo.webp">
+               </div><!--/6-->
+               <div></div>
             </div>
+            
                 </div>
-            </div>
+         
             
             <script>
                 //Pass an object literal for settings
   $('.slides').slick({
        
-       dots: false,
-       infinite: true,
-       slidesToShow: 4,
-       slidesToScroll: 1,
-       autoplay: true,
-       autoplaySpeed: 5000,
-       arrows: true,
-       gap: 00,
-      
-
-       
-     }); 
+   slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase:'linear',
+        infinite: true,
+        focusOnSelect: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1
+            }
+        }]
+    }); 
             </script>
 </div>
 
