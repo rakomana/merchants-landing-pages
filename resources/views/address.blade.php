@@ -38,9 +38,12 @@
                   </div>
                </div>
                <div>
-                  <form action="{{url('your-name')}}" method="" id="formPageForm" novalidate="true">
-                     <div class="sectionContainer errorMessageBound boxed hidden" data-combinederrorid="fullAddressErrorCombined">
-                        <div class="formfieldHeader">
+               
+               
+               
+                  <form action="{{url('your-name')}}" method="" id="formPageForm" novalidate="true" class="sectionContainer boxed ">
+                  
+                  <div class="formfieldHeader">
                            What is your company's address?				
                         </div>
                         <div class="fieldInfoTxt">
@@ -49,125 +52,102 @@
                            </div>
                            We use your address information to ensure that quotes are as accurate as possible for your area.				
                         </div>
-                        <div class="flexyContainer justifyCentral">
-                           <div class="errorMessageBound flexyItem noGrowDesktop paddingTop20">
-                              <span class="inputContainer inputContainerAkira small">
-                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookup singleField fieldForValidation byChange" name="fullAddress" id="fullAddress0" value="" data-validatevia="validateFalse" data-validateextra="" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*county&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*house&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*postcode&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*street&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*town&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}}]}" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*county&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*house&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*postcode&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*street&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}},{&quot;*town&quot;:{&quot;op&quot;:&quot;present&quot;,&quot;value&quot;:false}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$"><label class="inputLabel inputLabelAkira" for="fullAddress">
-                              <span class="inputLabelContent inputLabelContentAkira">Start typing your address</span>
-                              </label>
-                              </span>
-                              <div>
-                                 <label class="fieldValidationError hidden fullAddressError">&nbsp;</label>
-                              </div>
-                           </div>
-                        </div>
-                        <div>
-                           <label class="fieldValidationError hidden fullAddressErrorCombined">&nbsp;</label>
-                        </div>
-                     </div>
-                     
-                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitStart marginTopMinus30 whiteBackground roundedtop" data-combinederrorid="houseErrorCombined">
-                        <div class="formfieldHeader">
-                           What is your company's address?				
-                        </div>
-                        <div class="fieldInfoTxt">
-                           <div class="infoIco">
-                              <img src="img/info.svg" data-at2x="resources/images/info@2x.png"> 
-                           </div>
-                           We use your address information to ensure that quotes are as accurate as possible for your area.				
-                        </div>
-                        <div class="flexyContainer justifyCentral">
-                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
-                              <span class="inputContainer inputContainerAkira small inputFilled">
-                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookupInput street_number short_name singleField fieldForValidation byChange" name="house" id="house0" value="" data-validatevia="validateText" data-validateextra="" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="house">
-                              <span class="inputLabelContent inputLabelContentAkira">House Number or Name</span>
-                              </label>
-                              </span>
-                              <div>
-                                 <label class="fieldValidationError hidden houseError">&nbsp;</label>
-                              </div>
-                           </div>
-                        </div>
-                        <div>
+
+                        <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="inputLabelContent inputLabelContentAkira">House Number or Name</div>
+                      <input type="search" class="inputField inputFieldAkira doAddressLookupInput street_number short_name singleField fieldForValidation byChange " id="addrs_1" placeholder="Start typing your address..." autocomplete="off" name="house" value="" data-validatevia="validateText" data-validateextra="" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="house"></input>
+                     </span>
+                     <div>
                            <label class="fieldValidationError hidden houseErrorCombined">&nbsp;</label>
                         </div>
                      </div>
-                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle marginTopMinus30 whiteBackground paddingTop20" data-combinederrorid="streetErrorCombined">
-                        <div class="flexyContainer justifyCentral">
-                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
-                              <span class="inputContainer inputContainerAkira small inputFilled">
-                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookupInput route long_name singleField fieldForValidation byChange" name="street" id="street0" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:1}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="street">
-                              <span class="inputLabelContent inputLabelContentAkira">Street Name</span>
-                              </label>
-                              </span>
-                              <div>
+                     
+
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                      <div class="inputLabelContent inputLabelContentAkira">Street Name</div>
+                      <input type="text" class="inputField inputFieldAkira doAddressLookupInput route long_name singleField fieldForValidation byChange" id="addrs_2" name="street" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:1}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""></input>
+                      </span>
+                      <div>
                                  <label class="fieldValidationError hidden streetError">&nbsp;</label>
                               </div>
-                           </div>
-                        </div>
-                        <div>
-                           <label class="fieldValidationError hidden streetErrorCombined">&nbsp;</label>
-                        </div>
                      </div>
-                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle marginTopMinus30 whiteBackground paddingTop20" data-combinederrorid="townErrorCombined">
-                        <div class="flexyContainer justifyCentral">
-                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
-                              <span class="inputContainer inputContainerAkira small inputFilled">
-                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookupInput postal_town long_name singleField fieldForValidation byChange" name="town" id="town0" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="town">
-                              <span class="inputLabelContent inputLabelContentAkira">Town</span>
-                              </label>
-                              </span>
-                              <div>
-                                 <label class="fieldValidationError hidden townError">&nbsp;</label>
-                              </div>
-                           </div>
-                        </div>
-                        <div>
-                           <label class="fieldValidationError hidden townErrorCombined">&nbsp;</label>
-                        </div>
+  
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                      <div class="inputLabelContent inputLabelContentAkira">Town</div>
+                     <input class="inputField inputFieldAkira doAddressLookupInput postal_town long_name singleField fieldForValidation byChange" id="suburb" name="town" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""></input>
+                     </span>
                      </div>
-                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle marginTopMinus30 whiteBackground paddingTop20" data-combinederrorid="countyErrorCombined">
-                        <div class="flexyContainer justifyCentral">
-                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
-                              <span class="inputContainer inputContainerAkira small inputFilled">
-                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange" name="county" id="county0" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""><label class="inputLabel inputLabelAkira" for="county">
-                              <span class="inputLabelContent inputLabelContentAkira">County</span>
-                              </label>
-                              </span>
-                              <div>
-                                 <label class="fieldValidationError hidden countyError">&nbsp;</label>
-                              </div>
-                           </div>
-                        </div>
-                        <div>
-                           <label class="fieldValidationError hidden countyErrorCombined">&nbsp;</label>
-                        </div>
+  
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                      <div class="inputLabelContent inputLabelContentAkira">City</div>
+                      <input class="inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange" id="city" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""></input>
+                      </span>
                      </div>
-                     <div class="sectionContainer errorMessageBound addressSearch boxedSplit boxedSplitMiddle paddingBottom20 marginTopMinus30 whiteBackground roundedBottom boxedSubmit paddingTop20" data-combinederrorid="postcodeErrorCombined">
-                        <div class="flexyContainer justifyCentral">
-                           <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
-                              <span class="inputContainer inputContainerAkira small inputFilled">
-                              <input autocomplete="off" class="inputField inputFieldAkira doAddressLookupInput postal_code short_name singleField fieldForValidation byChange" name="postcode" id="postcode0" value="" data-validatevia="validateText" data-validateextra="{&quot;pattern&quot;:&quot;^[[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]?[ ]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$&quot;}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^[[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]?[ ]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$" required=""><label class="inputLabel inputLabelAkira" for="postcode">
-                              <span class="inputLabelContent inputLabelContentAkira">Postcode</span>
-                              </label>
-                              </span>
-                              <div>
-                                 <label class="fieldValidationError hidden postcodeError">&nbsp;</label>
-                              </div>
-                           </div>
-                        </div>
-                        <div>
-                           <label class="fieldValidationError hidden postcodeErrorCombined">&nbsp;</label>
-                        </div>
-                        <div class="appButtonWrapper">
+
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                      <div class="inputLabelContent inputLabelContentAkira">Country</div>
+                      <input class="inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange" id="country" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""></input>
+                      </span>
+                     </div>
+  
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                      <div class="inputLabelContent inputLabelContentAkira">Postcode</div>
+                      <input class="inputField inputFieldAkira doAddressLookupInput postal_code short_name singleField fieldForValidation byChange" id="postcode" value="" data-validatevia="validateText" data-validateextra="{&quot;pattern&quot;:&quot;^[[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]?[ ]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$&quot;}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^[[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]?[ ]?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$" required=""></input>
+                      </span>
+                     </div>
+
+                      <div class="appButtonWrapper">
                             <a style="text-decoration: none; color: whitesmoke;"><button type="submit" class="formButton pulse">Continue <i class="fas fa-arrow-right"></i></button></a>
                         </div>
-                     </div>
-                     <div class="lineBreak10"></div>
+
                   </form>
+
+
                </div>
             </div>
          </div>
+
+         <script>
+            (function() {
+    var widget, initAddressFinder = function() {
+        widget = new AddressFinder.Widget(
+            document.getElementById('addrs_1'),
+            'ADDRESSFINDER_DEMO_KEY',
+            'NZ', {
+                "address_params": {
+                    "post_box": "0"
+                }
+            }
+        );
+        widget.on('address:select', function(fullAddress, metaData) {
+            
+            document.getElementById('addrs_1').value = metaData.address_line_1;
+            document.getElementById('addrs_2').value = metaData.address_line_2 || '';
+            document.getElementById('suburb').value = metaData.suburb;
+            document.getElementById('city').value = metaData.city;
+            document.getElementById('country').value = metaData.city;
+            document.getElementById('postcode').value = metaData.postcode;
+
+        });
+    };
+
+    function downloadAddressFinder() {
+        var script = document.createElement('script');
+        script.src = 'https://api.addressfinder.io/assets/v3/widget.js';
+        script.async = true;
+        script.onload = initAddressFinder;
+        document.body.appendChild(script);
+    };
+
+    document.addEventListener('DOMContentLoaded', downloadAddressFinder);
+})();
+         </script>
 
           <!--Logo area-->      
             
