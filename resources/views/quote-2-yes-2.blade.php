@@ -139,88 +139,106 @@
 
              <!--Logo area-->      
             
-        <div class="main ">
+             <div class="main ">
                     <div class="grid-full">
-            <div class="slides">
+            <div class="slides" style="padding-bittom:0px; vertical-align:center;">
               <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png"  style="width: 50%;
+        height: auto; justify-content: center;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png"  style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
-               <div></div>
-            </div>
+               
+            </div></div>
             
                 </div>
          

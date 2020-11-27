@@ -29,7 +29,15 @@
       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
    </head>
 
-
+   <div class="visibleWhileLoading formLoaderOverlay done">
+			<div class="letsTxt">Starting Quote Engine</div>
+			<div class="loaderImage">
+				<img src="resources/images/small-logo.svg" class="logo-svg" data-at2x="resources/images/small-logo@2x.png">
+			</div>
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+  			<div class="loader-section section-right"></div>
+		</div>
 
         @yield('content')
 

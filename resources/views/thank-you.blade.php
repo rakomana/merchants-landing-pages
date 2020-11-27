@@ -36,15 +36,15 @@
                               <i class="checkmark">✓</i>
                            </div>
                            <br>
-                           <div class="thankYouBlock">Thank you for taking the time to complete our Merchant Services assessment form. 
-                              The information that you have provided allows us to match your request to a Merchant Services provider within your area.
+                           <div class="thankYouBlock">Thank you for taking the time to complete our for to find you the best merchant services rates.
+                               The information that you have provided allows us to match your request to acquiring banks so we can find you the lowest available rates. 
                            </div>
                            <h3>What happens next?</h3><br>
                            <ul>
                               <li style="text-align: left; background-image: url(img/tick2.svg);
                                  background-size: 16px 16px;
                                  background-repeat: no-repeat; background-position: 0% 0%;
-                                 padding-left: 27px;">You will receive a call from a reputable Merchant Services supplier within your local area.</li>
+                                 padding-left: 27px;">You will receive a call from a reputable merchant services supplier within your local area.</li>
                               <li style="text-align: left; background-image: url(img/tick2.svg);
                                  background-size: 16px 16px;
                                  background-repeat: no-repeat; background-position: 0% 0%;
@@ -69,88 +69,106 @@
 
           <!--Logo area-->      
             
-        <div class="main ">
+          <div class="main ">
                     <div class="grid-full">
-            <div class="slides">
+            <div class="slides" style="padding-bittom:0px; vertical-align:center;">
               <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png"  style="width: 50%;
+        height: auto; justify-content: center;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png"  style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
-               <div></div>
-            </div>
+               
+            </div></div>
             
                 </div>
          

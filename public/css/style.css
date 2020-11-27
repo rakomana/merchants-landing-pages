@@ -2552,6 +2552,8 @@ footer {
 @media (max-width: 1000px) {
   .slides p {
     font-size: 18px;
+    display: flex;
+    justify-content: center;
   }
   .grid-fifth {
     width: 27.333333%;

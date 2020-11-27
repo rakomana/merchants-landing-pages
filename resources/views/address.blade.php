@@ -2,6 +2,7 @@
 
    @section('content')
 
+
         <!-- splash -->
 
         <div id="splashArea" class="formSplashArea">
@@ -39,9 +40,7 @@
                </div>
                <div>
                
-               
-               
-                  <form action="{{url('your-name')}}" method="" id="formPageForm" novalidate="true" class="sectionContainer boxed ">
+               <form action="{{url('your-name')}}" method="" id="formPageForm" novalidate="true" class="sectionContainer boxed ">
                   
                   <div class="formfieldHeader">
                            What is your company's address?				
@@ -64,7 +63,7 @@
                      </div>
                      
 
-                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                     <!--<div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
                         <span class="inputContainer inputContainerAkira small inputFilled">
                       <div class="inputLabelContent inputLabelContentAkira">Street Name</div>
                       <input type="text" class="inputField inputFieldAkira doAddressLookupInput route long_name singleField fieldForValidation byChange" id="addrs_2" name="street" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:1}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""></input>
@@ -93,7 +92,7 @@
                       <div class="inputLabelContent inputLabelContentAkira">Country</div>
                       <input class="inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange" id="country" value="" data-validatevia="validateText" data-validateextra="{&quot;min&quot;:3}" data-validatelinkedfields="null" data-validateinvalidates="null" data-requiredif="true" data-displayif="{&quot;matchType&quot;:&quot;or&quot;,&quot;checks&quot;:[{&quot;*fullAddress&quot;:{&quot;backendmatched&quot;:true,&quot;op&quot;:&quot;hidden&quot;,&quot;value&quot;:null}}]}" data-disabledif="false" placeholder="" type="text" pattern="^.{0,}$" required=""></input>
                       </span>
-                     </div>
+                     </div>-->
   
                      <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
                         <span class="inputContainer inputContainerAkira small inputFilled">
@@ -107,132 +106,221 @@
                         </div>
 
                   </form>
+                  </div>
+            </div>
+         </div>
+               
+                  <!--<form action="{{url('your-name')}}" method="" id="formPageForm" novalidate="true" class="sectionContainer boxed " >
+                  <div class="formfieldHeader">
+                           What is your company's address?				
+                        </div>
+                        <div class="fieldInfoTxt">
+                           <div class="infoIco">
+                              <img src="img/info.svg"> 
+                           </div>
+                           We use your address information to ensure that quotes are as accurate as possible for your area.				
+                        </div>
+                        <br><br>
+                  <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="form-group">
+                        <label class="inputLabelContent inputLabelContentAkira">Address Search</label>
+                        <input class="search-bar form-control inputField inputFieldAkira doAddressLookupInput street_number short_name singleField fieldForValidation byChange"/>
+                     </div>
+                     </span>
+                     </div>
+                <hr/>
+                <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="form-group">
+                         <label class="inputLabelContent inputLabelContentAkira">House Number</label>
+                        <input class="address-line-1 form-control inputField inputFieldAkira doAddressLookupInput route long_name singleField fieldForValidation byChange"/>
+                      </div>
+                        </span>
+                        </div>
+
+                        <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="form-group">
+                        <label class="inputLabelContent inputLabelContentAkira">Address Line 2</label>
+                        <input class="address-line-2 form-control inputField inputFieldAkira doAddressLookupInput postal_town long_name singleField fieldForValidation byChange" />
+                     </div>
+                     <span>
+
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="form-group">
+                        <label class="inputLabelContent inputLabelContentAkira">Town</label>
+                        <input class="address-town form-control inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange"/>
+                     </div>
+                     </span>
+                     </div>
+
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="form-group">
+                      <label class="inputLabelContent inputLabelContentAkira ">Postcode</label>
+                        <input class="address-zip form-control inputField inputFieldAkira doAddressLookupInput postal_code short_name singleField fieldForValidation byChange"/>
+                     </div>
+                     </span>
+                     </div>
+
+                     <div class="errorMessageBound flexyItem paddingTop20 noGrowDesktop">
+                        <span class="inputContainer inputContainerAkira small inputFilled">
+                     <div class="form-group">
+                     <label class="inputLabelContent inputLabelContentAkira ">Country</label>
+                     <input class="address-country form-control inputField inputFieldAkira doAddressLookupInput administrative_area_level_1 short_name singleField fieldForValidation byChange"/>
+                  </div>
+                  </span>
+                  </div>
+                  <div class="appButtonWrapper">
+                            <a style="text-decoration: none; color: whitesmoke;"><button type="submit" class="formButton pulse">Continue <i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                  </div></div>
+               </form>
 
 
                </div>
             </div>
-         </div>
+         </div>-->
+
+         <!--<style>
+            form{
+	padding: 50px;
+	width: 500px;
+	margin: auto;
+}
+         </style>
+
 
          <script>
-            (function() {
-    var widget, initAddressFinder = function() {
-        widget = new AddressFinder.Widget(
-            document.getElementById('addrs_1'),
-            'ADDRESSFINDER_DEMO_KEY',
-            'NZ', {
-                "address_params": {
-                    "post_box": "0"
-                }
-            }
-        );
-        widget.on('address:select', function(fullAddress, metaData) {
-            
-            document.getElementById('addrs_1').value = metaData.address_line_1;
-            document.getElementById('addrs_2').value = metaData.address_line_2 || '';
-            document.getElementById('suburb').value = metaData.suburb;
-            document.getElementById('city').value = metaData.city;
-            document.getElementById('country').value = metaData.city;
-            document.getElementById('postcode').value = metaData.postcode;
+            new clickToAddress({
+    accessToken: '264d8-1fe06-a86f1-06348',
+    dom: {
+        search:     'search-bar',
+        town:       'address-town',
+        postcode:   'address-zip',
+        line_1:     'address-line-1',
+        line_2:     'address-line-2',
+        country:   	'address-country'
+    },
+	domMode: 'class',
+	gfxMode: 1
 
-        });
-    };
+   countryMatchWith: "text",
+    enabledCountries: ["Poland", "Hungary", "United Kingdom"]
 
-    function downloadAddressFinder() {
-        var script = document.createElement('script');
-        script.src = 'https://api.addressfinder.io/assets/v3/widget.js';
-        script.async = true;
-        script.onload = initAddressFinder;
-        document.body.appendChild(script);
-    };
-
-    document.addEventListener('DOMContentLoaded', downloadAddressFinder);
-})();
-         </script>
+    onResultSelected: function(c2a, elements, address){
+        console.log("Congratulations, You just picked an address!");
+    },
+    onCountyChange: function(c2a, elements, address){
+        console.log("County Changed");
+    }
+});
+         </script>-->
 
           <!--Logo area-->      
             
           <div class="main ">
                     <div class="grid-full">
-            <div class="slides">
+            <div class="slides" style="padding-bittom:0px; vertical-align:center;">
               <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png"  style="width: 50%;
+        height: auto; justify-content: center;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png"  style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="img/elavon-logo-346.png">
+                <img src="img/elavon-logo-346.png" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="img/eposnow-logo.png">
+              <img src="img/eposnow-logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="img/PAX_Technology_Inc_logo.png">
+              <img src="img/PAX_Technology_Inc_logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="img/Ingenico_Logo.png">
+             <img src="img/Ingenico_Logo.png" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="img/register-by-smart-volution-logo.png">
+                <img src="img/register-by-smart-volution-logo.png" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="img/Pocket Apps Green Logo.webp">
+                <img src="img/Pocket Apps Green Logo.webp" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
-               <div></div>
-            </div>
+               
+            </div></div>
             
                 </div>
          

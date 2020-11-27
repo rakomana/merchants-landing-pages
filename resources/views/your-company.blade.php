@@ -515,81 +515,99 @@
                     <div class="grid-full">
             <div class="slides">
               <div>
-                <img src="{{asset('img/elavon-logo-346.png')}}">
+                <img src="{{asset('img/elavon-logo-346.png')}}" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="{{asset('img/eposnow-logo.png')}}">
+              <img src="{{asset('img/eposnow-logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="{{asset('img/PAX_Technology_Inc_logo.png')}}">
+              <img src="{{asset('img/PAX_Technology_Inc_logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="{{asset('img/Ingenico_Logo.png')}}">
+             <img src="{{asset('img/Ingenico_Logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="{{asset('img/register-by-smart-volution-logo.png')}}">
+                <img src="{{asset('img/register-by-smart-volution-logo.png')}}" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="{{asset('img/Pocket Apps Green Logo.webp')}}">
+                <img src="{{asset('img/Pocket Apps Green Logo.webp')}}" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="{{asset('img/elavon-logo-346.png')}}">
+                <img src="{{asset('img/elavon-logo-346.png')}}" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="{{asset('img/eposnow-logo.png')}}">
+              <img src="{{asset('img/eposnow-logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="{{('img/PAX_Technology_Inc_logo.png')}}">
+              <img src="{{('img/PAX_Technology_Inc_logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="{{asset('img/Ingenico_Logo.png')}}">
+             <img src="{{asset('img/Ingenico_Logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="{{asset('img/register-by-smart-volution-logo.png')}}">
+                <img src="{{asset('img/register-by-smart-volution-logo.png')}}" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="{{asset('img/Pocket Apps Green Logo.webp')}}">
+                <img src="{{asset('img/Pocket Apps Green Logo.webp')}}" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
                <div>
-                <img src="{{asset('img/elavon-logo-346.png')}}">
+                <img src="{{asset('img/elavon-logo-346.png')}}" style="width: 50%;
+        height: auto;">
              
             </div><!--/1-->
             <div></div>
             <div>
                 
-              <img src="{{asset('img/eposnow-logo.png')}}">
+              <img src="{{asset('img/eposnow-logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/2-->
             <div></div>
             <div>
-              <img src="{{asset('img/PAX_Technology_Inc_logo.png')}}">
+              <img src="{{asset('img/PAX_Technology_Inc_logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/3-->
             <div></div>
             <div>
-             <img src="{{asset('img/Ingenico_Logo.png')}}">
+             <img src="{{asset('img/Ingenico_Logo.png')}}" style="width: 50%;
+        height: auto;">
             </div><!--/4-->
             <div></div>
             <div>
-                <img src="{{asset('img/register-by-smart-volution-logo.png')}}">
+                <img src="{{asset('img/register-by-smart-volution-logo.png')}}" style="width: 50%;
+        height: auto;">
                </div><!--/5-->
                <div></div>
                <div>
-                <img src="{{asset('img/Pocket Apps Green Logo.webp')}}">
+                <img src="{{asset('img/Pocket Apps Green Logo.webp')}}" style="width: 50%;
+        height: auto;">
                </div><!--/6-->
                <div></div>
             </div>
